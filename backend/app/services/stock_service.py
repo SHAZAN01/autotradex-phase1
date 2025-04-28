@@ -1,5 +1,6 @@
 from app.db.database import async_session
-from app.db.models import Stock
+from app.db.models import StockData
+
 from sqlalchemy.future import select
 
 async def get_stock_info(symbol: str):
